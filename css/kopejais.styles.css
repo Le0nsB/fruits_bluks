@@ -1,0 +1,125 @@
+body{
+    background-image: radial-gradient(circle, #424242, #000000);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    height: 95vh;
+    border: 12px solid;
+    border-image-slice: 1;
+    padding: 0;
+    margin: 0;
+    font-family: Courier, monospace;
+    color: #cf9a21;
+    border-image-source: linear-gradient(90deg, #cf9a21, #cf4121);
+    animation: borderMove 3s linear infinite;
+}
+header{
+    border-bottom: 1px solid #505050;
+    display: flex;
+    width: 100%;
+    background-color: #505050;
+}
+header ul{
+    margin: 0;
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+header nav ul li{
+    padding: 7px 15px;
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+a:hover{
+    color: #eecf8e;
+}
+
+
+h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffdb86;
+    text-shadow: 2px 2px 6px #000000;
+    transition: color 1s ease, transform 0.6s ease;
+}
+h1:hover{
+    color: #f37256;
+    transform: scale(1.3);
+}
+.input{
+    border-style: solid;
+    border-color:#ffdb86;
+    border-width: 3px;
+    border-radius: 4px;
+    color:#ffdb86;
+    background-color: rgba(216, 184, 81, 0.2);
+    font-size: 1.5vh;
+    width: 16vh;
+    height: 2vh;
+    font-family:'Courier New', Courier, monospace;
+    margin: 0px;
+}
+.delete{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-color:#f37256;
+    border-width: 3px;
+    color:#f37256;
+    background-color: rgba(216, 121, 81, 0.2);
+    font-size: 3vh;
+    width: 12vh;
+    height: 4vh;
+    font-family:'Courier New', Courier, monospace;
+}
+
+
+
+.edit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-color:#56c7f3;
+    background-color: rgba(81, 142, 216, 0.2);
+    color:#56c7f3;
+    font-size: 3vh;
+    width: 12vh;
+    height: 4vh;
+    margin-bottom:10px;
+}
+
+.submit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-color:#2eac2a;
+    background-color: rgba(81, 216, 99, 0.2);
+    color:#2eac2a;
+    font-size: 3vh;
+    width: 12vh;
+    height: 4vh;
+    margin-bottom:10px;
+}
+.index_button{
+    border-style: solid;
+    border-color:#ffdb86;
+    border-width: 3px;
+    border-radius: 4px;
+    color:#ffdb86;
+    background-color: rgba(216, 184, 81, 0.2);
+    font-size: 1.4vh;
+    font-family:'Courier New', Courier, monospace;
+    margin: 0px;
+}
+.cont{
+   gap: 0px;
+}
+
+
